@@ -123,7 +123,7 @@ function update ()
 
     if (cursors.left.isDown)
     {
-        player.setVelocityX(-160);
+        player.setVelocityX(-500);
 
         player.anims.play('left', true);
     }
